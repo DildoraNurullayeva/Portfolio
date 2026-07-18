@@ -11,14 +11,16 @@
 }
 
 .body {
-    background: rgb(41, 47, 54);
+    background: pink;
+    color: rgb(235, 114, 134);
 }
 
 .header {
-    background: rgb(41, 47, 54);
-    color: white;
+    background: rgb(235, 114, 134);
+    color: pink;
     border-bottom: 1px solid gray;
-    padding: 50px;
+    padding: 10px;
+   
 }
 
 .header-container {
@@ -33,16 +35,11 @@
     font-size: 40px;
 }
 
-.header-text:hover {
-    transform: rotate(1turn);
-    color: aqua;
-    font-size: 45px;
-}
 
 .cards {
     text-decoration: none;
     list-style: none;
-    color: aqua;
+    color: rgb(249, 177, 189);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,7 +47,7 @@
 }
 
 .card {
-    color: white;
+    color: rgb(249, 177, 189);
     font-size: 18px;
     text-decoration: none;
     list-style: none;
@@ -58,47 +55,32 @@
 
 .card:hover {
     transform: rotate(1turn);
-    color: aqua;
-    font-size: 20px;
+    color: white;
+    font-size: 19px;
 }
 
 .list {
     width: 50px;
     height: 30px;
-    color: aqua;
 }
 
-.icons {
-    color: gray;
-    position: relative;
-}
 
-.icons:hover {
-    content: "🔍 matin kiriting";
-    width: 400px;
-    height: 40px;
-    background: white;
-    color: gray;
-    border-radius: 30px;
-    position: absolute;
-    top: 200px;
-    left: 700px;
-}
+/* home */
 
 
 .home-container {
-    color: white;
+    color: rgb(235, 114, 134);
 }
 
 .home-h2 {
     text-align: center;
-    color: aqua;
+    color: rgb(235, 114, 134);
     font-size: 90px;
     padding: 40px;
 }
 
 .home-div {
-    border: 1px solid white;
+    border: 1px solid rgb(235, 114, 134);
     border-radius: 130px 0 130px 0;
     width: 310px;
     height: 400px;
@@ -110,7 +92,7 @@
 .home-img {
     width: 80px;
     height: 80px;
-    border: 1px solid aqua;
+    border: 1px solid rgb(235, 114, 134);
     border-radius: 50%;
 }
 
@@ -135,10 +117,10 @@
 }
 
 .btn1 {
-    color: black;
-    background: aqua;
-    padding: 2px;
-    border: 1px solid aqua;
+    color: white;
+    background: rgb(235, 114, 134);
+    padding: 5px;
+    border: 1px solid pink;
     border-radius: 10px;
 }
 
@@ -148,6 +130,9 @@
     width: 180px;
     font-size: 20px;
     border-radius: 20px;
+    border: 1px solid pink;
+    color: white;
+    background: rgb(235, 114, 134);
 }
 
 .home2-text {
@@ -158,7 +143,7 @@
 }
 
 .span {
-    color: aqua;
+    color: rgb(247, 58, 168);
 }
 
 .home2-p {
@@ -196,9 +181,9 @@
 
 
 .home-rights {
-    border: 2px solid #1a1e23;
+    border: 2px solid rgb(235, 114, 134);
     border-radius: 80px;
-    background: #1a1e23;
+    background: rgb(235, 114, 134);
     color: white;
     justify-content: center;
     align-items: center;
@@ -211,47 +196,45 @@
 }
 
 .right-numbr {
-    color: aqua;
+    color: rgb(247, 58, 168);
     font-size: 50px;
 }
 
 .about-container {
-    background-image: url("https://framerusercontent.com/images/aaUbIi2TamL1vIwHVmmKRx18.png?scale-down-to=2048");
-    max-width: 1550px;
+    background-image: url("https://img.magnific.com/free-vector/pale-color-background-with-curvy-lines-layers_1017-42541.jpg?semt=ais_hybrid&w=740&q=80");
+    max-width: 1950px;
     height: 100%;
     padding: 40px;
     display: flex;
     flex-direction: column;
+    color: rgb247;
     gap: 30px;
     justify-content: center;
     align-items: center;
 }
 
 .about-details {
-    border: 1px solid #1a1e23;
+    border: 1px solid rgb(247, 58, 168);
     border-radius: 20px;
-    background: #1a1e23;
+    background: rgb(244, 179, 190);
     max-width: 900px;
     height: 150%;
     padding: 20px;
 }
 
 
-
-
-
 .about-h2 {
     font-size: 40px;
     padding: 20px;
-    color: aqua;
-    background: #1a1e23;
-    border: 3px solid aqua;
+    color: rgb(247, 58, 168);
+    background: pink;
+    border: 3px solid rgb(247, 58, 168);
     border-radius: 20px 0 20px 0;
 
 }
 
 .about-hello {
-    color: aqua;
+    color: rgb(247, 58, 168);
     font-size: 40px;
     padding: 10px;
 }
@@ -261,11 +244,12 @@
     font-size: 17px;
     font-weight: 200;
     padding: 20px;
-    color: white;
+    color: rgb(247, 58, 168);
 }
 
 .about-span {
-    color: aqua;
+    color: white;
+    font-size: 20px;
 }
 
 .about-img {
@@ -278,75 +262,10 @@
 }
 
 
-.hero-h2 {
-    color: aqua;
-    text-align: center;
-    font-size: 40px;
-    padding: 10px;
-}
 
-.hero-text {
-    font-size: 16px;
-    color: white;
-    padding: 10px;
-}
-
-
-.hero-div {
-    text-align: center;
-    align-items: center;
-    gap: 40px;
-    align-items: center;
-    margin: 0 auto;
-}
-
-.her2-left {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    padding: 20px;
-}
-
-
-.hero-left {
-    border: 1px solid #97f9eb;
-    border-left: rgb(0, 110, 255);
-    background: #97f9eb;
-    color: black;
-    width: 200px;
-    height: 80px;
-    border-radius: 20px;
-    align-items: center;
-    justify-content: center;
-}
-
-.left-img {
-    width: 50px;
-    height: 20px;
-    color: o;
-}
-
-.hero-icons {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.hero-icon {
-    border: 1px solid orange;
-    border-radius: 50%;
-    background: white;
-    width: 70px;
-    height: 70px;
-}
-
-.HERO-H4 {
-    color: white;
-}
 
 .skills-text {
-    color: aqua;
+    color: rgb(235, 114, 134);
     text-align: center;
     padding: 40px;
     font-size: 50px;
@@ -371,19 +290,17 @@
 .skills-childrn {
     width: 200px;
     height: 260px;
-    border: 1px solid rgba(250, 250, 250, 0.2);
+    border: 1px solid rgb(235, 114, 134);
     border-radius: 30px;
-    backdrop-filter: blur(30px);
-    background: rgba(250, 250, 250, 0.2);
-    color: black;
+    background: rgb(235, 114, 134);
+    color: pink;
     justify-content: center;
     align-items: center;
 }
 
 .skills-childrn:hover {
-    color: white;
-    box-shadow: 0 0 50px 2px aqua;
-    border: 3px solid aqua;
+    box-shadow: 0 0 50px 2px rgb(247, 58, 168);
+    border: 3px solid rgb(252, 96, 187);
 }
 
 .skills-img {
@@ -402,9 +319,9 @@
 }
 
 .work-container {
-    background-image: url("https://framerusercontent.com/images/9Jri2DI3w5e7WuvkuMPFjbXs1Go.png?scale-down-to=2048");
+    background-image: url("https://i.pinimg.com/1200x/8d/90/90/8d9090642a692b3131a585fdd3a75e84.jpg");
     max-width: 1550px;
-    height: 700px;
+    height: 650px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -414,7 +331,7 @@
 
 .work-title {
     font-size: 50px;
-    color: aqua;
+    color: rgb(247, 58, 168);
     padding: 20px;
 }
 
@@ -424,9 +341,8 @@
 }
 
 .work-text:hover {
-    box-shadow: 0 0 40px 2px aqua;
-    background: aqua;
-    color: black;
+    box-shadow: 0 0 40px 2px rgb(252, 96, 187);
+    color: rgb(252, 96, 187);
     font-size: 20px;
 }
 
@@ -438,15 +354,17 @@
     justify-content: center;
 }
 
+/* blog */
+
 .blog-h2 {
-    color: aqua;
+    color: rgb(235, 114, 134);
     text-align: center;
     padding: 20px;
     font-size: 40px;
 }
 
 .blog-text {
-    color: white;
+    color: rgb(235, 114, 134);
     text-align: center;
     padding: 30px;
     font-size: 20px;
@@ -458,8 +376,8 @@
     align-items: center;
     gap: 50px;
     padding: 30px;
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
+    border-top: 1px solid rgb(235, 114, 134);
+    border-bottom: 1px solid rgb(235, 114, 134);
 }
 
 .blog-img {
@@ -468,7 +386,7 @@
 }
 
 .blog-img:hover {
-    border: 3px solid aqua;
+    border: 3px solid rgb(235, 114, 134);
 }
 
 .blog-titles {
@@ -479,7 +397,7 @@
 }
 
 .blog-title {
-    color: aqua;
+    color: rgb(235, 114, 134);
     font-size: 30px;
     padding: 0 0 30px 0;
 }
@@ -494,13 +412,13 @@
 .blog-h4 {
     padding: 0 450px 30px 0px;
     font-size: 17px;
-    color: aqua;
+    color: rgb(235, 114, 134);
 }
 
 .blog-buttons {
     display: flex;
     gap: 20px;
-    color: white;
+    color: rgb(235, 114, 134);
 }
 
 .blog-btn {
@@ -508,11 +426,11 @@
     backdrop-filter: blur(30px);
     padding: 8px;
     border-radius: 10px;
-    border: 1px solid rgba(250, 250, 250, 0.2);
-    color: white;
+    border: 1px solid rgb(235, 114, 134);
+    color: rgb(235, 114, 134);
 }
 
-.btns{
+.btns {
     display: flex;
     gap: 20px;
     align-items: center;
@@ -521,123 +439,180 @@
     padding: 20px;
 }
 
-.btn3{
-    background: aqua;
-    color: black;
+.btn3 {
+    background: rgb(235, 114, 134);
+    color: pink;
     border-radius: 20px;
-    border: 1px solid aqua;
+    border: 1px solid rgb(235, 114, 134);
     padding: 20px;
     font-size: 20px;
 }
 
-.btn{
-    background: rgb(41, 47, 54);
-    border: 2px solid aqua;
+.btn {
+    background: pink;
+    border: 2px solid rgb(235, 114, 134);
     border-radius: 20px;
     padding: 20px;
     font-size: 20px;
-    color: white;
+    color: rgb(235, 114, 134);
+}
+
+/* project */
+#projects {
+    padding: 40px 0;
+}
+
+.projects__title {
+    text-align: center;
+    color: rgb(235, 114, 134);
+    font-size: 50px;
+}
+
+.projects__cards {
+    padding: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 250px 250px;
+    gap: 20px;
+}
+
+.projects__card {
+    border: 1px solid rgb(235, 114, 134);
+}
+
+.projects__card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 /* contact */
-#contact{
-    background: rgb(27, 29, 32);
+#contact {
+    background: url("https://img.magnific.com/free-photo/red-abstract-texture-background_1373-160.jpg?semt=ais_hybrid&w=740&q=80");
+
+    max-width: 1550px;
+    height: 650px;
 }
-.contact__container{
+
+.contact__container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap:10px ;
+    gap: 20px;
 }
 
-.contact-h2{
+.contact-h2 {
     text-align: center;
-    color: aqua;
+    color: pink;
     font-size: 50px;
     padding: 20px;
 }
 
-.contact-text{
+.contact-text {
     padding: 10px 0;
-    color: white;
+    color: pink;
     font-size: 20px;
 }
 
-.contact-btn{
+.contact-btn {
     border-radius: 50px 0px 50px 0px;
     padding: 20px;
     font-size: 35px;
-    border: 2px solid aqua;
-    background: rgb(41, 47, 54);
-    color: aqua;
+    border: 3px solid rgb(247, 58, 168);
+    background: pink;
+    color: rgb(247, 58, 168);
     align-items: center;
     text-align: center;
 }
-    
-    .contact__form{
-        margin: 0 auto;
-        background: red;
-        padding: 40px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-        max-width: 800px;
-    }
 
-    .form__top{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    .contact__form label{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .contact__form input{
-        flex: 1;
-        background: black;
-    }
-
-.footer{
+.contact__form {
+    margin: 0 auto;
+    padding: 40px;
     display: flex;
-    border-bottom: aqua;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 800px;
+    border: 2px solid pink;
+    margin: 20px auto;
 }
 
-.address{
+.form__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.contact__form label {
+    display: flex;
+    flex-direction: column;
+    color: pink;
+    gap: 10px;
+}
+
+.contact__form input {
+    flex: 1;
+    background: pink;
+    color: rgb(247, 58, 168);
+    padding: 10px;
+    border: 2px solid rgb(247, 58, 168);
+    outline: none;
+}
+
+.contact__form textarea {
+    width: 420px;
+    height: 100px;
+    background: pink;
+    color: rgb(247, 58, 168);
+    border: 2px solid rgb(247, 58, 168);
+}
+
+.contact-button {
+    padding: 10px;
+    border: 1px solid rgb(247, 58, 168);
+    color: rgb(247, 58, 168);
+    background: pink;
+    border-radius: 10px;
+}
+
+.footer {
+    display: flex;
+    border-bottom: rgb(247, 58, 168);
+}
+
+
+.address {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 20px;
     gap: 150px;
-    border-top: 2px solid aqua;
+    border-top: 2px solid rgb(247, 58, 168);
     width: 100%;
 }
 
-.footer-text{
+.footer-text {
     display: flex;
     gap: 20px;
-    color: white;
+    color: rgb(247, 58, 168);
 }
 
-.footer-icon{
+.footer-icon {
     display: flex;
     gap: 20px;
 }
 
-.footer-icons{
-    border: 1px solid aqua;
+.footer-icons {
+    border: 1px solid rgb(247, 58, 168);
     border-radius: 50%;
     width: 35px;
     height: 35px;
-    background: aqua;
+    background: rgb(247, 58, 168);
 }
 
-.text{
-    color: white;
-    font-size: 18px ;
+.text {
+    color: rgb(247, 58, 168);
+    font-size: 18px;
 
 }
-
