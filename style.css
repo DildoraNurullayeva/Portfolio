@@ -28,6 +28,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 30px;
+    color: white;
 }
 
 .header-text {
@@ -39,7 +40,7 @@
 .cards {
     text-decoration: none;
     list-style: none;
-    color: rgb(249, 177, 189);
+    color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -47,7 +48,7 @@
 }
 
 .card {
-    color: rgb(249, 177, 189);
+    color: white;
     font-size: 18px;
     text-decoration: none;
     list-style: none;
@@ -55,7 +56,7 @@
 
 .card:hover {
     transform: rotate(1turn);
-    color: white;
+
     font-size: 19px;
 }
 
@@ -69,12 +70,13 @@
 
 
 .home-container {
-    color: rgb(235, 114, 134);
+    color: white;
+    padding: 0 0 30px 0;
 }
 
 .home-h2 {
     text-align: center;
-    color: rgb(235, 114, 134);
+    color: white;
     font-size: 90px;
     padding: 40px;
 }
@@ -92,7 +94,7 @@
 .home-img {
     width: 80px;
     height: 80px;
-    border: 1px solid rgb(235, 114, 134);
+    border: 1px solid white;
     border-radius: 50%;
 }
 
@@ -152,53 +154,7 @@
     max-width: 600px;
 }
 
-.home-page {
-    margin: 50px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.home-page-div {
-    display: flex;
-    gap: 20px;
-}
-
-.home-h3 {
-    font-size: 20px;
-    padding: 0 0 0 100px;
-    display: grid;
-}
-
-.home-page-img {
-    width: 30px;
-    height: 20xp;
-}
-
-.home-left {
-    width: 800px;
-}
-
-
-.home-rights {
-    border: 2px solid rgb(235, 114, 134);
-    border-radius: 80px;
-    background: rgb(235, 114, 134);
-    color: white;
-    justify-content: center;
-    align-items: center;
-}
-
-.home-right {
-    display: flex;
-    padding: 30px;
-    gap: 13px;
-}
-
-.right-numbr {
-    color: rgb(247, 58, 168);
-    font-size: 50px;
-}
+/* about */
 
 .about-container {
     background-image: url("https://img.magnific.com/free-vector/pale-color-background-with-curvy-lines-layers_1017-42541.jpg?semt=ais_hybrid&w=740&q=80");
@@ -207,7 +163,7 @@
     padding: 40px;
     display: flex;
     flex-direction: column;
-    color: rgb247;
+    color: white;
     gap: 30px;
     justify-content: center;
     align-items: center;
@@ -217,6 +173,7 @@
     border: 1px solid rgb(247, 58, 168);
     border-radius: 20px;
     background: rgb(244, 179, 190);
+    color: white;
     max-width: 900px;
     height: 150%;
     padding: 20px;
@@ -234,7 +191,7 @@
 }
 
 .about-hello {
-    color: rgb(247, 58, 168);
+    color:  white;
     font-size: 40px;
     padding: 10px;
 }
@@ -244,7 +201,7 @@
     font-size: 17px;
     font-weight: 200;
     padding: 20px;
-    color: rgb(247, 58, 168);
+    color: white;
 }
 
 .about-span {
@@ -265,7 +222,7 @@
 
 
 .skills-text {
-    color: rgb(235, 114, 134);
+    color: white;
     text-align: center;
     padding: 40px;
     font-size: 50px;
@@ -293,7 +250,7 @@
     border: 1px solid rgb(235, 114, 134);
     border-radius: 30px;
     background: rgb(235, 114, 134);
-    color: pink;
+    color: white;
     justify-content: center;
     align-items: center;
 }
@@ -336,13 +293,13 @@
 }
 
 .work-text {
-    color: white;
+    color: rgb(247, 58, 168);
     font-size: 17px;
 }
 
 .work-text:hover {
     box-shadow: 0 0 40px 2px rgb(252, 96, 187);
-    color: rgb(252, 96, 187);
+    color: rgb(247, 58, 168);
     font-size: 20px;
 }
 
@@ -357,14 +314,14 @@
 /* blog */
 
 .blog-h2 {
-    color: rgb(235, 114, 134);
+    color: white;
     text-align: center;
     padding: 20px;
     font-size: 40px;
 }
 
 .blog-text {
-    color: rgb(235, 114, 134);
+    color: white;
     text-align: center;
     padding: 30px;
     font-size: 20px;
@@ -378,6 +335,7 @@
     padding: 30px;
     border-top: 1px solid rgb(235, 114, 134);
     border-bottom: 1px solid rgb(235, 114, 134);
+    color: white;
 }
 
 .blog-img {
@@ -397,7 +355,7 @@
 }
 
 .blog-title {
-    color: rgb(235, 114, 134);
+    color: white;
     font-size: 30px;
     padding: 0 0 30px 0;
 }
@@ -412,13 +370,13 @@
 .blog-h4 {
     padding: 0 450px 30px 0px;
     font-size: 17px;
-    color: rgb(235, 114, 134);
+    color: white;
 }
 
 .blog-buttons {
     display: flex;
     gap: 20px;
-    color: rgb(235, 114, 134);
+    color: white;
 }
 
 .blog-btn {
@@ -427,7 +385,7 @@
     padding: 8px;
     border-radius: 10px;
     border: 1px solid rgb(235, 114, 134);
-    color: rgb(235, 114, 134);
+    color: white;
 }
 
 .btns {
@@ -441,7 +399,7 @@
 
 .btn3 {
     background: rgb(235, 114, 134);
-    color: pink;
+    color: white;
     border-radius: 20px;
     border: 1px solid rgb(235, 114, 134);
     padding: 20px;
@@ -454,7 +412,7 @@
     border-radius: 20px;
     padding: 20px;
     font-size: 20px;
-    color: rgb(235, 114, 134);
+    color: white;
 }
 
 /* project */
@@ -464,7 +422,7 @@
 
 .projects__title {
     text-align: center;
-    color: rgb(235, 114, 134);
+    color: white;
     font-size: 50px;
 }
 
@@ -474,6 +432,7 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 250px 250px;
     gap: 20px;
+    color: white;
 }
 
 .projects__card {
@@ -489,7 +448,6 @@
 /* contact */
 #contact {
     background: url("https://img.magnific.com/free-photo/red-abstract-texture-background_1373-160.jpg?semt=ais_hybrid&w=740&q=80");
-
     max-width: 1550px;
     height: 650px;
 }
@@ -503,14 +461,14 @@
 
 .contact-h2 {
     text-align: center;
-    color: pink;
+    color: white;
     font-size: 50px;
     padding: 20px;
 }
 
 .contact-text {
     padding: 10px 0;
-    color: pink;
+    color: white;
     font-size: 20px;
 }
 
@@ -547,7 +505,7 @@
 .contact__form label {
     display: flex;
     flex-direction: column;
-    color: pink;
+    color: white;
     gap: 10px;
 }
 
@@ -579,6 +537,7 @@
 .footer {
     display: flex;
     border-bottom: rgb(247, 58, 168);
+    color: white;
 }
 
 
