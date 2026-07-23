@@ -20,7 +20,7 @@
     color: pink;
     border-bottom: 1px solid gray;
     padding: 10px;
-   
+
 }
 
 .header-container {
@@ -191,7 +191,7 @@
 }
 
 .about-hello {
-    color:  white;
+    color: white;
     font-size: 40px;
     padding: 10px;
 }
@@ -218,8 +218,51 @@
     margin: 0 auto;
 }
 
+/* family */
+#family {
+    background: url("https://img.magnific.com/premium-vector/color-peach-fuzz-halftone-background-vector-abstract-pink-gradient-fon-with-lines-rhombus_775359-32.jpg?semt=ais_hybrid&w=740&q=80") no-repeat center/cover;
+    width: 100%;
+}
 
+.family_container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
 
+}
+
+.family-h2 {
+    font-size: 40px;
+    color: rgb(247, 58, 168);
+}
+
+.parent {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px;
+}
+
+.childrn {
+    border: 2px solid rgb(247, 58, 168);
+    box-shadow: 0 0 50px 2px rgb(247, 58, 168);
+    padding: 10px;
+    border-radius: 30px;
+    background: white;
+}
+
+.text {
+    padding: 10px;
+}
+
+/* skills */
+
+#skills {
+    padding: 5px;
+}
 
 .skills-text {
     color: white;
